@@ -1,0 +1,80 @@
+input:focus, textarea:focus, select:focus {
+    outline: none;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    height: 95vh;
+    justify-content: center;
+}
+
+div.container {
+    width: 80%;
+}
+
+div.header {
+    align-items: center;
+    background-color: rgb(136, 188, 114);
+    color: white;
+    display: flex;
+    height: 2rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+    padding: .3rem;
+}
+
+div.input {
+    display: flex;
+    width: 100%;
+}
+
+input {
+    border: 3px solid rgb(136, 188, 114);
+    height: 2rem;
+    margin-right: 1rem;
+    width: 100%;
+}
+
+button {
+    background-color: transparent;
+    border: 3px solid rgb(136, 188, 114);
+    color:rgb(136, 188, 114);
+    outline: none;
+    padding: 9.9px;
+    min-width: 140px;
+}
+
+button:hover {
+    background-color: rgba(136, 188, 114, 0.2);
+}
+
+ul {
+    list-style-type:none;
+    margin: 1.8rem 0 1.8rem 0;
+    padding: 0;
+}
+
+li {
+    margin: 15px 0;
+}
+
+.delete {
+    background-color: #E06666;
+    color: whitesmoke;
+    display: inline;
+    padding:.2rem .4rem;
+}
+
+.skill {
+    color: #ffaa2a;
+    display: inline;
+    margin-left:.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+    div.container {
+        width: 40%;
+    } 
+}
